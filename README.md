@@ -4,29 +4,30 @@
 1. Python 3
 
 ## Setup
-1. only for Python 3.8+
-```
-pip install --pre --extra-index-url=https://kivy.org/downloads/simple kivy[base]
-```
-
-2. for all Python 3
 ```
 pip install --upgrade -r requirements.txt
 ```
 
+only for Python 3.8+
+```
+pip install --pre --extra-index-url=https://kivy.org/downloads/simple kivy[base]
+```
+
 ## Running
-1.
 ```
 python main.py
 ```
 
 ## Packaging
-1. for windows
+### Windows executable
+Double click `build.bat`, or run:
 ```
-pyinstaller minesweeper.spec
+pyi-makespec --name minesweeper --icon=resource/icon.ico --add-data resource/*;. --onefile --noconsole main.py
+python editspec.py -f=minesweeper.spec
+pyinstaller --clean --noconfirm minesweeper.specpyinstaller minesweeper.spec
 ```
 
-2. for android
+### Android
 ```
 buildozer init
 ```
