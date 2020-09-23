@@ -3,8 +3,7 @@ A demo kivy app. Graph traversal using floodfill algorithm.
 
 The main purpose is to explore kivy's framework and to know about packaging kivy's app to both desktop and android standalone app.
 
-![Screenshot](https://github.com/JonathanGun/minesweeper-kivy/blob/master/screenshot/1.jpg)
-
+<img src="./screenshot/1.jpg" width="350px">
 
 ## Prerequisite
 1. Python 3
