@@ -1,4 +1,10 @@
-# Minesweeper
+# Minesweeper-Kivy
+A demo kivy app. Graph traversal using floodfill algorithm.
+
+The main purpose is to explore kivy's framework and to know about packaging kivy's app to both desktop and android standalone app.
+
+![Screenshot](https://github.com/JonathanGun/minesweeper-kivy/tree/master/screenshot/1.jpg)
+
 
 ## Prerequisite
 1. Python 3
